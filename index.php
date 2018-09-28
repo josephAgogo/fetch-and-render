@@ -8,7 +8,7 @@
 
 $types = array("mobile", "desktop");
 
-$url = isset($_GET['url']) ? $_GET['url'] : "http://www.example.com/";
+$url = isset($_GET['url']) ? $_GET['url'] : "https://shopping.qantas.com";
 $type = isset($_GET['type']) ? $_GET['type'] : "desktop";
 
 $mobile = $type == "mobile";
